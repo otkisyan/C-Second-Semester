@@ -240,7 +240,7 @@ int CheckOctal (int number){
         exit(1);
     }
 
-    if (tempStr.find_first_not_of("0123456") != string::npos){
+    if (tempStr.find_first_not_of("01234567") != string::npos){
         cout << "Некоректно введене число!";
         exit(1);
     }
