@@ -366,6 +366,9 @@ bool CheckNameCorrect (string filename){
             return true;
         }
 
+    //regex ext_regex("[a-zA-Z0-9]+");
+    //return regex_match(filename, ext_regex);
+
     }
 
 
